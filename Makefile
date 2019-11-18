@@ -69,9 +69,5 @@ unittestresults: unittest1.c unittest2.c unittest3.c unittest4.c unittest5.c dom
 	./unittest3 >> unittestresults.out
 	./unittest4 >> unittestresults.out
 	./unittest5 >> unittestresults.out
-	./cardtest1 >> unittestresults.out
-	./cardtest2 >> unittestresults.out
-	./cardtest3 >> unittestresults.out
-	./cardtest4 >> unittestresults.out
-	./cardtest5 >> unittestresults.out
+	
 	gcov dominion.c -b -f >> unittestresults.out
