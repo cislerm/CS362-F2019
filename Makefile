@@ -59,11 +59,6 @@ unittestresults: unittest1.c unittest2.c unittest3.c unittest4.c unittest5.c dom
 	gcc -o unittest3 -g unittest3.c dominion.o rngs.o $(CFLAGS)
 	gcc -o unittest4 -g unittest4.c dominion.o rngs.o $(CFLAGS)
 	gcc -o unittest5 -g unittest5.c dominion.o rngs.o $(CFLAGS)
-	gcc -o cardtest1 -g cardtest1.c dominion.o rngs.o $(CFLAGS)
-	gcc -o cardtest2 -g cardtest2.c dominion.o rngs.o $(CFLAGS)
-	gcc -o cardtest3 -g cardtest3.c dominion.o rngs.o $(CFLAGS)
-	gcc -o cardtest4 -g cardtest4.c dominion.o rngs.o $(CFLAGS)
-	gcc -o cardtest5 -g cardtest5.c dominion.o rngs.o $(CFLAGS)
 	./unittest1 >> unittestresults.out
 	./unittest2 >> unittestresults.out
 	./unittest3 >> unittestresults.out
