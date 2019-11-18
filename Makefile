@@ -53,7 +53,7 @@ randomtestresults: randomtestcard1.c randomtestcard2.c randomtestcard3.c dominio
 	
 
 # Assignment 3
-unittestresults: unittest1.c unittest2.c unittest3.c unittest4.c unittest5.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c cardtest5.c dominion.o rngs.o
+unittestresults: unittest1.c unittest2.c unittest3.c unittest4.c unittest5.c dominion.o rngs.o
 	gcc -o unittest1 -g unittest1.c dominion.o rngs.o $(CFLAGS)
 	gcc -o unittest2 -g unittest2.c dominion.o rngs.o $(CFLAGS)
 	gcc -o unittest3 -g unittest3.c dominion.o rngs.o $(CFLAGS)
